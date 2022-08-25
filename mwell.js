@@ -44,7 +44,7 @@ if(minutes===1 && seconds===10){
             minutes="0"+minutes;
         }
         
-        countdown.textContent = `${minutes} : ${seconds}`;
+        countdown.textContent = `${minutes}:${seconds}`;
      
         if (amountTime<0) {
             stopTimer();
@@ -80,13 +80,19 @@ Swal.fire({
 })
 .then((result) => {
     if (result.isConfirmed) {
+
         timerStop()
         function timerStop(){
-        window.clearInterval(window.timerID)  
-        }}
-        
-      
-})
+        window.clearInterval(window.timerID) 
+            }
+        button.style.display="block";
+        btnSt.style.display="none"; 
+                   }
+       newText()
+       function newText(){
+        countdown.innerHTML="04:30"
+       }
+          })
 
 }) 
 
@@ -110,3 +116,4 @@ btnI.addEventListener("click",function(){
       })
 
 })
+
