@@ -2,6 +2,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
     background-repeat: no-repeat;
   background-size: cover;
+  background-color:#393d3e ;
 }
 h1{
     display: flex;
@@ -32,3 +33,19 @@ a{
     color: black;
     
    }
+
+
+
+
+
+   @media all and (max-width:500px){
+         body{
+        background-size: auto;
+        background-color:#393d3e ;
+        }
+      h1{font-size: 50px;}
+      #btn{
+        padding: 10px;
+        font-size: 20px;
+      }
+    }  

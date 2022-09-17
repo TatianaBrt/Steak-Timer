@@ -68,3 +68,15 @@ color:#EB1D36;
     margin-top: 30px;
 }
 
+
+
+@media all and (max-width:500px){
+  body{
+ background-size: auto;
+ background-color:#393d3e ;
+ }
+h1{font-size: 50px;}
+#btn{
+ padding: 10px;
+}
+}  
