@@ -13,3 +13,12 @@ This project implements timer:
 
 
 ## Preview
+
+![Document - Google Chrome 13 07 2023 13_35_07](https://github.com/TatianaBrt/Steak-Timer/assets/115479875/8fbc8cb6-2068-4192-b15f-fdea00f5634f)
+
+
+
+
+
+
+
